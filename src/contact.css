@@ -1,0 +1,14 @@
+.contact-container{
+    max-width: 1000px;
+    margin:0 auto;
+    margin-top:20px;
+    border:30px solid white;
+    border-image-source: url(./images/border.png);
+    border-image-width: 1;
+    border-image-slice: 88;
+    text-align: center;
+    padding:10px;
+}
+.contact-container *{
+    padding: 10px;
+}

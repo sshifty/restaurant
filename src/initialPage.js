@@ -10,6 +10,7 @@ export default function initialPage(){
    const contactDiv=document.createElement("div");
 
    homeDiv.setAttribute("data-nav","home");
+   homeDiv.classList.add("active");
    menuDiv.setAttribute("data-nav","menu");
    contactDiv.setAttribute("data-nav","contact");
   

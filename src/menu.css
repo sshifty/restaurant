@@ -1,0 +1,34 @@
+.menuh1{
+    margin:20px;
+    text-align: center;
+}
+
+.menuitem{
+    margin:0 auto;
+    max-width: 720px;
+    display: flex;
+    gap:10px;
+    margin-bottom: 20px;
+    border:30px solid white;
+    border-image-source: url(./images/border.png);
+    border-image-width: 1;
+    border-image-slice: 88;
+}
+
+.menudesc{
+    text-align: center;
+}
+.menudesc *{
+    padding-bottom: 10px;
+}
+
+.menuitem img{
+    width:250px;    
+    height: auto;
+}
+
+.green-underline{
+    margin:0 auto;    
+    width: fit-content;
+    border-bottom: 1px solid #5bab52;
+}

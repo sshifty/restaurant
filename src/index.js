@@ -1,7 +1,9 @@
 import initialPage from './initialPage';
 import homePage from './homePage';
 import menuPage from './menuPage';
+import contactPage from './contactPage';
 import style from './style.css';
+
 
 homePage();
 
@@ -21,7 +23,7 @@ homePage();
             document.querySelector(`[data-nav="home"]`).classList.remove("active");
             document.querySelector(`[data-nav="menu"]`).classList.remove("active");
             this.classList.add("active");
-            console.log("contact")
+            contactPage();
         }
     }
     const nav=initialPage();
