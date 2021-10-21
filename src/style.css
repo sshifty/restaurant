@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 *{
     margin:0;
     padding:0;
@@ -9,12 +11,15 @@
 }
 
 body{
+    font-family: 'Roboto';
     background-color: var(--background-color);
 }
+
 
 .h1-name{
     text-align: center;
     padding:20px;
+    margin-bottom: 20px;
 }
 
 .nav-container{
@@ -27,48 +32,9 @@ body{
 .nav-container div{
     font-size: 1.4em;
     padding:5px 15px;
-    border:1px solid black;
-}
-/*Home Page*/
-.restimage{
-    content: url(./images/background.png);
-    width:50%;
-    margin: 0 auto;
-}
-.imagecontainer{
-    margin-top:-100px;
-    height: 100vh;
-    background-image: url(./images/background.png);
-    background-position-x:50% ;
-    background-position-y:50% ;
-    background-size: cover;
-    margin-bottom:20px;
+    cursor: pointer;
 }
 
-
-
-.homedesc{
-    max-width:1000px;
-    border:30px solid white;
-    border-image-source: url(./images/border.png);
-    border-image-width: 1;
-    border-image-slice: 88;
-    padding:10px;
-    margin:0 auto;    
-}
-
-.desc-header{
-    width:fit-content;
-    text-align: center;
-    font-size: 2em;
+.active{
     border-bottom: 1px solid black;
-    text-transform: uppercase;
-    margin:0 auto;
-    margin-bottom: 20px;
-}
-
-.desc-text{
-    text-align: center;
-    text-align-last: center;
-    font-size: 1.1em;   
 }

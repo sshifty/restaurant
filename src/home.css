@@ -1,0 +1,39 @@
+/*Home Page*/
+
+
+.restImage{
+    display: block;
+    margin:30px auto;
+    
+    content: url(./images/background.png);
+}
+
+
+
+.homedesc{
+    
+    max-width:1000px;
+    border:30px solid white;
+    border-image-source: url(./images/border.png);
+    border-image-width: 1;
+    border-image-slice: 88;
+    padding:10px;
+    margin:0 auto;        
+}
+
+.desc-header{
+    font-family: 'Roboto';
+    width:fit-content;
+    text-align: center;
+    font-size: 2em;
+    border-bottom: 1px solid black;
+    text-transform: uppercase;
+    margin:0 auto;
+    margin-bottom: 20px;
+}
+
+.desc-text{
+    text-align: center;
+    text-align-last: center;
+    font-size: 1.1em;   
+}
